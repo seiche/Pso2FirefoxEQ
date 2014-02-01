@@ -1,0 +1,72 @@
+﻿body{
+	width:420px;
+	font-size:12px;
+	background-color: #294f60;
+	font-family: "メイリオ", "ＭＳ Ｐゴシック", "Osaka", "ヒラギノ角ゴ Pro W3";
+	overflow: hidden;
+}
+
+body li{
+	margin-left: 32px;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+body a{
+	text-decoration:none;
+	color: #FFF;
+}
+
+.pso{
+	list-style-image:url('images/pso.ico');
+}
+
+.bump{
+	list-style-image:url('images/bump.gif');
+}
+
+.en{
+	list-style-image:url('images/main.png');
+}
+
+.story{
+	list-style-image:url('images/story2.png');
+}
+
+.cirn{
+	list-style-image:url('images/cirn.png');
+}
+
+.pso2{
+	list-style-image:url('images/pso2.ico');
+}
+
+#main{
+	width:90%;
+	margin:auto;
+	text-align:center;
+	border-top: 1px solid #FFF;
+	font-family: "メイリオ", "ＭＳ Ｐゴシック", "Osaka", "ヒラギノ角ゴ Pro W3";
+	color: #FFF;
+	font-size: 12px;
+	padding-top: 3px;
+}
+
+#main img{
+	padding: 2px;
+	border-radius: 5px;
+	background-color:#FFF;
+}
+
+#main table{
+	width:100%;
+}
+
+.left{
+	width:63px;
+}
+
+#eq_text{
+	text-align:left;
+	padding-left:3px;
+}

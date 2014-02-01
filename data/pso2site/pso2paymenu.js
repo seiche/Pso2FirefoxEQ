@@ -1,0 +1,22 @@
+﻿var html = document.getElementById("mainArea").innerHTML;
+html = html.replace("ACの購入・確認","Purchase Arks Cash");
+document.getElementById("mainArea").innerHTML = html;
+
+var content = document.getElementById("contents-block").innerHTML;
+content = content.replace("購入する「アークスキャッシュ（AC）」の種類と、「決済方法」をそれぞれ選択して、「次へ」ボタンを押してください。","To purchase Arks Cash(AC), select the amount and payment method and click the Next button below to continue.");
+content = content.replace("アークスキャッシュ（AC）購入","Arks Cash Menu");
+content = content.replace("アークスキャッシュ（AC）とは","What is Arks Cash?");
+content = content.replace("アークスキャッシュ（AC）を利用することで、ゲーム内の様々なACサービスを利用することができます。ACは追加して購入することができ、貯めておくことが可能です。","Arks Cash(AC) is in game currency used to purchase special items in game that require real money. The amount is stored on your account and can be saved up. Buying more AC will add to the balance on the account.");
+content = content.replace("アークスキャッシュ（AC）購入","Purchase AC:");
+content = content.replace("購入する「アークスキャッシュ（AC）」の種類と、「決済方法」をそれぞれ選択して、利用規約、注意事項をご確認いただき、「利用規約に同意して次へ進む」ボタンを押してください。","");
+content = content.replace("アークスキャッシュ（AC）","Arks Cash Amount");
+content = content.replace("価格（税込み）","Price(Tax Inc.)");
+content = content.replace("決済方法","Payment Method");
+content = content.replace("クレジットカード","Credit Card");
+content = content.replace("モバイル","Mobile ");
+content = content.replace("アークスキャッシュ（AC）購入時のご注意","Caution when buying Arks Cash");
+content = content.replace("必ず利用規約をお読みいただき、同意いただいた上ご利用ください。","Plase read the terms and conditions listen above.");
+content = content.replace("お客様が未成年者の場合には、必ず法定代理人（親権者・保護者等）の同意を得てからご利用ください。","Minors must confirm their purchase with a parent or guardian.");
+content = content.replace("ACサービスのご利用後、いかなる理由によっても換金、その他払戻しを受けることはできませんのでご注意ください。","Once used, Arks Cash(AC) cannot be refunded for any reason.");
+content = content.replace("キャラクター削除を行った場合、アークスキャッシュ（AC）による追加キャラクター作成権、そのキャラクターが所持していたアイテム、キャラクターごとの追加要素（エステ要素など）も消失しますので、ご注意ください。","If a character is deleted then all of the items and services purchased with AC attached to that character are also deleted and cannot be redeemed.");
+document.getElementById("contents-block").innerHTML = content;

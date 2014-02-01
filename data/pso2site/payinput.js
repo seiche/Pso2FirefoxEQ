@@ -1,0 +1,29 @@
+﻿var html = document.getElementById("mainArea").innerHTML;
+html = html.replace("個人情報入力", "Input Personal Information");
+html = html.replace("以下の情報をご入力ください。", "Please fill out the form below.");
+html = html.replace("姓名を入力してください。", "Please Enter Your Name");
+html = html.replace("姓名をカタカナで入力してください。", "Enter your name in full-width Katakana");
+html = html.replace("なお、虚偽の個人情報で登録された方は、SEGA IDの利用を停止させていただく場合がございますので、内容を正確にご入力ください。", "Note that your Sega ID maybe suspended if false information is submitted.<br>(As of yet this has not happened)");
+html = html.replace("姓：", "Last: ");
+html = html.replace("名：", "First: ");
+html = html.replace("*(例)姓：瀬賀 名：太郎(各全角８文字以内)", "Ex. Last: やまと First: きら (must be 8 characters or shorter)<br>Note: Name can be in hiragana or kanji. The characters just need to be full-width.");
+html = html.replace("姓（カナ）：", "Last(kana):");
+html = html.replace("名（カナ）：", "First(kana):");
+html = html.replace("*(例)姓：セガ 名：タロウ (各全角８文字以内)", "Ex. Last: ヤマト First: キラ (must be full-width katakana characters, 8 characters or shorter)");
+html = html.replace("郵便番号を入力してください。", "Enter Area Code");
+html = html.replace("（半角数字）", "");
+html = html.replace("住所を入力してください。", "Enter Your Address");
+html = html.replace("電話番号を入力してください。", "Enter Your Phone Number");
+html = html.replace("性別を選んでください。", "Enter your Gender");
+html = html.replace("性別：", "Select: ");
+html = html.replace("男性", "Male ");
+html = html.replace("女性", "Female");
+document.getElementById("mainArea").innerHTML = html;
+/*
+document.forms["usrinfo"]["zipcode1"].value = 144;
+document.forms["usrinfo"]["zipcode2"].value = 8531;
+document.forms["usrinfo"]["address"].value = "東京都大田区羽田一丁目2番12号";
+document.forms["usrinfo"]["T1"].value = "090";
+document.forms["usrinfo"]["T2"].value = "9999";
+document.forms["usrinfo"]["T3"].value = "9999";
+*/
